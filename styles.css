@@ -3,6 +3,8 @@ html, body {
     padding: 0;
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
+    color: #432000;
+    user-select: none;
 }
 
 input {
@@ -11,9 +13,14 @@ input {
     margin: 10px 0;
 }
 
-button {
+#add-button {
     color: #FDFDFD;
     background-color: #AC485A;
+}
+
+#add-button:hover {
+    background-color: #432000;
+    cursor: pointer;
 }
 
 input, button {
@@ -55,3 +62,9 @@ ul li {
     text-align: center;
     font-size: 20px;
 }
+
+ul li:hover {
+    background-color: #FFECC7;
+    cursor: pointer;
+}
+
