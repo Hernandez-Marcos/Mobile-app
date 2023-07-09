@@ -7,11 +7,13 @@ html, body {
     user-select: none;
 }
 
-input {
-    color: #000000;
-    background-color: #FFFFFF;
-    border: 1px solid #CCCCCC;
-    margin: 10px 0;
+input, button {
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 #add-button {
@@ -24,13 +26,11 @@ input {
     cursor: pointer;
 }
 
-input, button {
-    border: 0;
-    padding: 15px;
-    border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
+input {
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    margin: 10px 0;
 }
 
 #container { 
