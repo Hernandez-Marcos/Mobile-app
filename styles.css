@@ -2,20 +2,21 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
-    background-color: #EEF0F4;
-    color: #432000;
+    background-color: #F5F5F5;
+    color: #000000;
     user-select: none;
 }
 
 input {
-    color: #432000;
-    background-color: #DCE1EB;
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
     margin: 10px 0;
 }
 
 #add-button {
-    color: #FDFDFD;
-    background-color: #AC485A;
+    color: #FFFFFF;
+    background-color: #2196F3;
 }
 
 #add-button:hover {
@@ -54,7 +55,9 @@ ul {
 }
 
 ul li {
-    background-color: #fffdf8;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #CCCCCC;
     box-shadow: 0px 1px 4px;
     padding: 15px;
     border-radius: 8px;
